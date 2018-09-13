@@ -1,0 +1,115 @@
+{
+	"ebm": [
+		{
+			"MixingSection": "Mixing area should be neat and clean"
+		},
+		{
+			"MixingSection": "Ingredients of Previous products should be separated from current ones"
+		},
+		{
+			"MixingSection": "All crumb bags of previous products must be removed"
+		},
+		{
+			"MixingSection": "Mixer/mixer bowl should be free from rust and foreign matter"
+		},
+		{
+			"MixingSection": "Mixer/mixer bowl should be free from previous product residue/smell"
+		},
+		{
+			"MixingSection": "All utensils, pots buckets and material pallets must be free from previous residue"
+		},
+		{
+			"MixingSection": "Sugar bags/sugar bags collection trolley should be cleaned and free from previous residue"
+		},
+		{
+			"MixingSection": "Scissor lifter should be clean and free from all residue"
+		},
+		{
+			"MixingSection": "Dough shooting hopper should be clean and free from residue"
+		}
+	],
+	"Cutting_Section": [
+		{
+			"CuttingSection": "Cutting Hopper should be clean"
+		},
+		{
+			"CuttingSection": "Dough shooting conveyor should be free from previous produts residue/damages/web threads"
+		},
+		{
+			"CuttingSection": "Molder/cutter/sheeter/rolls should be free from previous products residues"
+		},
+		{
+			"CuttingSection": "All interlinked conveyors should be free from previous product residues/damages/web threads"
+		},
+		{
+			"CuttingSection": "Sprinkler unit should be free from previous product residues"
+		},
+		{
+			"CuttingSection": "Egg wash unit/brush/cloth should be cleaned and free from damages"
+		},
+		{
+			"CuttingSection": "Left over dough trays/S.S trays should be cleaned before starting new product"
+		},
+		{
+			"CuttingSection": "Scrape dough trolley should be removed and washed before using for new product"
+		},
+		{
+			"CuttingSection": "Dough crumbling device (if any) should be free from previous product residue"
+		},
+		{
+			"CuttingSection": "Molder (after disassembling) and its knife should be cleaned"
+		},
+		{
+			"CuttingSection": "All interlinked scrap knifes should be cleaned"
+		},
+		{
+			"CuttingSection": "Sprinkling and egg wash unit should be removed in case of plain products like Gluco and Marie"
+		},
+		{
+			"CuttingSection": "Swivel panner controlling device should be cleaned"
+		},
+		{
+			"CuttingSection": "Cutting unit platforms should be cleaned and free from residue (after complete changeover)"
+		},
+		{
+			"CuttingSection": "Floor cleaning should done after complete changeover and before start of new product"
+		}
+	],
+	"Over_Section": [
+		{
+			"Ovensection": "Oil spraying mesh should be cleaned after saltish products"
+		},
+		{
+			"Ovensection": "Take off mesh should not hanve any residue  of previous product"
+		},
+		{
+			"Ovensection": "Buckets should be empitied and cleaned at product change over"
+		},
+		{
+			"Ovensection": "Cooling conveyer should be cleaned and free from previous product residue (in Buter zone)."
+		}
+	],
+	"Packing_Section":[
+		{
+			"PackingSection": "All packing  conveyors/packing machines should be free  from previous produts residue"
+		},
+		{
+			"PackingSection": "Feeding chains should be cleaned properly through air pressure"
+		},
+		{
+			"PackingSection": "All crumb bags/chanti/Machines wastage should be removed and Back log trays must be clear"
+		},
+		{
+			"PackingSection": "S.S trolley at the end of conveyor should be emptied & cleaned"
+		},
+		{
+			"PackingSection": "All crumb bags/Chanti/Machine wastage should be removed"
+		},
+		{
+			"PackingSection": "Back log trays should be cleaned before start of new product"
+		},
+		{
+			"PackingSection": "Floor Cleaning should done after somplete changeover and before start of new product"
+		}
+	]
+}

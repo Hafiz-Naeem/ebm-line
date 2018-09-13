@@ -1,0 +1,161 @@
+<mvc:View height="100%" 
+	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns="sap.m" 
+	xmlns:c="sap.ui.core" 
+	xmlns:l="sap.ui.commons.layout" 
+	xmlns:f="sap.ui.layout.form" 
+	xmlns:cl="sap.ui.layout">
+	<Page title="Line Clearence Form" class="sapUiContentPadding">
+		<content>
+
+			<f:SimpleForm id="SimpleFormDisplayColumn_oneGroup234" editable="false" layout="ColumnLayout" columnsM="2" columnsL="3" columnsXL="4">
+				<f:content>
+					<Label text="Change Over Time and Duration" />
+					<Input />
+					<Label text="Previous Product" />
+					<Input />
+					<Label text="Change Product" />
+					<Input />
+					<Label text="Date" />
+					<DatePicker id="DatePickerID" displayFormatType="" change="handleChange" placeholder="Enter Date" />
+					<Label text="Shift" />
+					<Input />
+					<Label text="Line" />
+					<Input />
+				</f:content>
+			</f:SimpleForm>
+
+			<IconTabBar id="idIconTabBarNoIcons" expanded="{device>/isNoPhone}" class="sapUiResponsiveContentPadding">
+				<items>
+					<IconTabFilter text="Mixing Section">
+
+
+						<Table id="ptab" growing="true"  
+			
+           growingThreshold ="20" growingScrollToLoad="false" items="{/ebm}">
+
+							<columns>
+								<Column width="50em">
+									<Label text="Mixing Section" design="Bold" />
+								</Column>
+								<Column minScreenWidth="Tablet" demandPopin="true">
+									<Label text="Check" design="Bold"/>
+								</Column>
+								<Column minScreenWidth="Tablet" demandPopin="true">
+									<Label text="Remarks" design="Bold"/>
+								</Column>
+							</columns>
+							<items>
+								<ColumnListItem>
+									<cells>
+										<Text text="{MixingSection}" />
+										<CheckBox />
+
+										<Select forceSelection="false" width ="100%">
+											<c:Item key="k1" text="Clean" />
+											<c:Item key="k3" text="Average" />
+											<c:Item key="k2" text="Not Clean" />
+
+										</Select>
+
+									</cells>
+								</ColumnListItem>
+							</items>
+						</Table>
+
+
+					</IconTabFilter>
+
+					<IconTabFilter text="Cutting Section">
+
+
+						<Table id="ptab2" items="{/Cutting_Section}">
+
+							<columns>
+								<Column width="50em">
+									<Label text="Cutting Section" design="Bold" />
+								</Column>
+								<Column minScreenWidth="Tablet" demandPopin="true">
+									<Label text="Check" design="Bold"/>
+								</Column>
+								<Column minScreenWidth="Tablet" demandPopin="true">
+									<Label text="Remarks" design="Bold"/>
+								</Column>
+							</columns>
+							<items>
+								<ColumnListItem>
+									<cells>
+										<Text text="{CuttingSection}" />
+										<CheckBox 	/>
+<Input />
+
+</cells>
+</ColumnListItem>
+</items>
+</Table>
+
+</IconTabFilter>
+
+<IconTabFilter text="Oven Section">
+
+											<Table id="ptab3" items="{/Over_Section}">
+
+												<columns>
+													<Column width="50em">
+														<Label text="Oven Section" design="Bold" />
+													</Column>
+													<Column minScreenWidth="Tablet" demandPopin="true">
+														<Label text="Check" design="Bold"/>
+													</Column>
+													<Column minScreenWidth="Tablet" demandPopin="true">
+														<Label text="Remarks" design="Bold"/>
+													</Column>
+												</columns>
+												<items>
+													<ColumnListItem>
+														<cells>
+															<Text text="{Ovensection}" />
+															<CheckBox />
+															<Input />
+														</cells>
+													</ColumnListItem>
+												</items>
+											</Table>
+
+
+										</IconTabFilter>
+
+										<IconTabFilter text="Packing Section">
+											<Table id="ptab4" items="{/Packing_Section}">
+
+												<columns>
+													<Column width="50em">
+														<Label text="Packing Section" design="Bold" />
+													</Column>
+													<Column minScreenWidth="Tablet" demandPopin="true">
+														<Label text="Check" design="Bold"/>
+													</Column>
+													<Column minScreenWidth="Tablet" demandPopin="true">
+														<Label text="Remarks" design="Bold"/>
+													</Column>
+												</columns>
+												<items>
+													<ColumnListItem>
+														<cells>
+															<Text text="{PackingSection}" />
+															<CheckBox />
+															<Input />
+														</cells>
+													</ColumnListItem>
+												</items>
+											</Table>
+
+										</IconTabFilter>
+									</items>
+								</IconTabBar>
+
+
+							</content>
+
+						</Page>
+					</mvc:View>
